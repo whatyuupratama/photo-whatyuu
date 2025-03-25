@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect';
 import Head from 'next/head';
 // import Image from
-const words = 'Safira Private PhotoBooth 👋🏻';
+const words = 'PhotoBooth with whatyuu👋🏻';
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -122,7 +122,7 @@ export default function Home() {
           ctx.font = '13px Arial';
           ctx.textAlign = 'center';
           ctx.fillText(
-            `Safira ${dateString}`,
+            `Photobooth ${dateString}`,
             stripCanvas.width / 2,
             frameHeight + 20
           );
