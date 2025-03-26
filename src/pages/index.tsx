@@ -140,7 +140,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Safira Private PhotoBooth</title>
+        <title>Private PhotoBooth</title>
         <meta
           name='description'
           content='Aplikasi PhotoBooth pribadi dengan efek keren!'
