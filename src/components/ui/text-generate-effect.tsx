@@ -66,7 +66,7 @@ export const TextGenerateEffect = ({
           return (
             <motion.span
               key={word + idx}
-              className={` text-black !font-extrabold text-4xl sm:text-5xl md:text-xl lg:text-xl xl:text-6xl ${
+              className={` text-black !font-extrabold text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl ${
                 isTooth ? styles.simpleShake : ''
               }`} // Use styles.simpleShake
               style={{

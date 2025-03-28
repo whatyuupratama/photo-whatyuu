@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect';
 import Head from 'next/head';
 // import Image from
-const words = 'PhotoBooth with whatyuu👋🏻';
+const words = 'Whatyuu PhotoBooth 👋🏻';
 
 export default function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -215,9 +215,9 @@ export default function Home() {
         </div>
 
         {/* Gambar di pojok kanan bawah */}
-        <div className='absolute bottom-4 right-4 justify-between hidden sm:block xl:block md:block xs:block'>
+        {/* <div className='absolute bottom-4 right-4 justify-between hidden sm:block xl:block md:block xs:block'>
           <img src='/safir.png' className='w-[300px] h-[400px]' alt='Pes' />
-        </div>
+        </div> */}
       </div>
     </>
   );
